@@ -15,7 +15,7 @@ To write a program to predict the marks scored by a student using the simple lin
 4.split the data
 5.create a regression model
 6.find mse,mae and rmse and predicted value,then print the values
-
+```
 ## Program:
 ```
 /*
