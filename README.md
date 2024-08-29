@@ -26,6 +26,9 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error,mean_squared_error
 df = pd.read_csv("C:/Users/ANANDAN S/Documents/ML labs/student_scores.csv")
 df.head()
+df.tail()
+x=df.iloc[:,:-1].values
+x
 
 #splitting training and test data
 from sklearn.model_selection import train_test_split
@@ -63,6 +66,46 @@ print('RMSE = ',rmse)
 
 ## Output:
 ```
+head:
+	Hours	Scores
+0	2.5	21
+1	5.1	47
+2	3.2	27
+3	8.5	75
+4	3.5	30
+tail:
+	Hours	Scores
+20	2.7	30
+21	4.8	54
+22	3.8	35
+23	6.9	76
+24	7.8	86
+iloc:
+array([[2.5],
+       [5.1],
+       [3.2],
+       [8.5],
+       [3.5],
+       [1.5],
+       [9.2],
+       [5.5],
+       [8.3],
+       [2.7],
+       [7.7],
+       [5.9],
+       [4.5],
+       [3.3],
+       [1.1],
+       [8.9],
+       [2.5],
+       [1.9],
+       [6.1],
+       [7.4],
+       [2.7],
+       [4.8],
+       [3.8],
+       [6.9],
+       [7.8]])
 y_pred: array([17.04289179, 33.51695377, 74.21757747, 26.73351648, 59.68164043,
        39.33132858, 20.91914167, 78.09382734, 69.37226512])
 y_test: array([20, 27, 69, 30, 62, 35, 24, 86, 76], dtype=int64)
