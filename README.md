@@ -9,14 +9,14 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 ```
-1.Start the program
-2.import the necessary libraries and read the file student scores
-3.print the x and y values
-4.separate the independent values and dependent values
-5.split the data
-6.create a regression model
-7.find mse,mae and rmse and predicted value,then print the values
-8.stop
+step 1:Start the program
+step 2:import the necessary libraries and read the file student scores
+step 3:print the x and y values
+step 4:separate the independent values and dependent values
+step 5:split the data
+step 6:create a regression model
+step 7:find mse,mae and rmse and predicted value,then print the values
+step 8:stop
 ```
 ## Program:
 ```
