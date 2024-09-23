@@ -9,7 +9,7 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 ```
-1.Start
+1.Start the program
 2.import the necessary libraries and read the file student scores
 3.print the x and y values
 4.separate the independent values and dependent values
@@ -72,19 +72,13 @@ print('RMSE = ',rmse)
 ## Output:
 ```
 head:
-	Hours	Scores
-0	2.5	21
-1	5.1	47
-2	3.2	27
-3	8.5	75
-4	3.5	30
+```
+![Screenshot 2024-09-23 111315](https://github.com/user-attachments/assets/aec8d161-9f70-4a10-a644-a5755909b82b)
+```
 tail:
-	Hours	Scores
-20	2.7	30
-21	4.8	54
-22	3.8	35
-23	6.9	76
-24	7.8	86
+```
+![Screenshot 2024-09-23 111330](https://github.com/user-attachments/assets/8f975805-5f29-4d8e-8895-ed3eed12a8d1)
+```
 iloc:
 array([[2.5],
        [5.1],
@@ -122,7 +116,5 @@ MAE =  4.6913974413974415
 RMSE =  5.046115410711748
 
 ```
-
-
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
